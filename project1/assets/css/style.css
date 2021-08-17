@@ -65,3 +65,11 @@
 .navbar .navbar-brand {
     padding: 0 0.6em;
 }
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+#gallery img:hover {
+    transform: scale(1.5);
+}
