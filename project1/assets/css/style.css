@@ -72,6 +72,7 @@ Secondary Color: #2b72a1
 }
 
 .card {
+    width: 18rem;
     transition: all 0.5s;
 }
 
