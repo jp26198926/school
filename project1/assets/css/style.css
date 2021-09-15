@@ -82,17 +82,22 @@ Secondary Color: #2b72a1
 
 #gallery img:hover {
     transition: all 0.5s;
-}
-
-#gallery img:hover {
     transform: scale(1.5);
+    object-fit: fill;
+    width: auto;
 }
 
-#testimony figure {
+#gallery img {
+    width: 10%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+#testimonials figure {
     box-shadow: 1px 1px 10px white;
     transition: all 0.5s;
 }
 
-#testimony figure:hover {
+#testimonials figure:hover {
     transform: scale(1.05);
 }
