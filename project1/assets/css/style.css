@@ -101,3 +101,26 @@ Secondary Color: #2b72a1
 #testimonials figure:hover {
     transform: scale(1.05);
 }
+
+.gal {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+}
+        
+.gal img {
+    width: 100%;
+    padding: 10px 0;
+}
+        
+@media (max-width: 500px) {
+    .gal {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+}
